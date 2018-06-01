@@ -2,10 +2,9 @@
 
 ## Structure
 
-The `Data_Structures_And_Algorithms` folder structure should mimic what your Data_Structures_And_Algorithms repository should look like.
-
-The structure should be as follows (please note that your `Data Structures and Algorithms` will be a repo, and not a folder):
-
+Create a `Data-Structures-and-Algorithms` repository in our personal GitHub. <br />
+The `Data_Structures_And_Algorithms` folder contained in this directory can be used as a guildeline. 
+Format it as described below: 
 
 ```markdown
 >> Data Structures and Algorithms (Repository Name)
