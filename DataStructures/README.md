@@ -3,7 +3,7 @@
 ## Structure
 
 Create a `Data-Structures-and-Algorithms` repository in our personal GitHub. <br />
-The `Data_Structures_And_Algorithms` folder contained in this directory can be used as a guildeline. 
+The `Data_Structures_And_Algorithms` folder contained in your class repository can be used as a guildeline. 
 Format it as described below: 
 
 ```markdown
@@ -33,7 +33,7 @@ This Folder should contain all of the challenges (with tests) that you have comp
 Your `README` for each Challenge should contain the following:
 1. Summary of the Challenge
 1. Image of your whiteboard solution. (This image should have been saved in your assets folder, and linked accordingly.)
-1. Explanation of why you solved the probelm this way
+1. Explanation of why you solved the problem this way
 
 
 ### DataStructures
