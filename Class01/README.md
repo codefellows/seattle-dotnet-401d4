@@ -13,6 +13,26 @@
 Welcome to Class! Please be sure read through the syllabus and get comfortable with both Visual Studio and Canvas.
 Introduce yourself to your classmates, and come to class ready to learn!
 
+#### Morning
+1. Introductions
+2. DSA Intro (Refer to DSAExpectations.md in Resources folder)
+3. Repository Setup requirements (Assignment in Canvas due tomorrow at midnight)
+5. Start Data Structure Day 1 Challenge
+6. Complete any unfinished prework
+
+---
+
+#### Afternoon
+1. FrontRow Video System
+2. Resharper/JetBrains
+3. Career Coaching Assignments
+4. Syllabus - Questions and Clarity?
+5. Office Hours / Availability
+6. Class Overview
+7. Extra Credit  
+
+## Lecture
+
 ### C# Basics
 * What is C#
   * Where did it come from?
