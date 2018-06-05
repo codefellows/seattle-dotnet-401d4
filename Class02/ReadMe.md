@@ -26,5 +26,5 @@
 - Proper Structure
 
 ### Example Readme
-- [Sample Readme]("/Resources/sample-README.md")
+- [Sample Readme]("Resources/sample-README.md")
  
