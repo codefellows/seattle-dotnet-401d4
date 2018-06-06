@@ -18,6 +18,12 @@ namespace Class02Demo
 				Console.WriteLine(e.Message);
 			}
 
+			// This calls the MyMain in the Exception Throw
+			// class. This is the "throw" example
+			// that was shown in class to demonstrate
+			// how the callstack affects exception handling. 
+			ExceptionThrow.MyMain();
+
 		}
 
 		static void TryBlockExample()

@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Class02Demo
 {
-    class ExceptionThrow
-    {
+	static class ExceptionThrow
+	{
 		//Output: 
 		// Trying in Main() Method
 		// Trying in Method A
@@ -22,13 +22,13 @@ namespace Class02Demo
 		// and the new error is handled moving forward
 
 
-		static void Main(string[] args)
+		public static void MyMain()
 		{
 			//Main calls Method A
 			try
 			{
 				Console.WriteLine("Trying in Main");
-			MethodA();
+				MethodA();
 			}
 			catch (Exception ae)
 			{
