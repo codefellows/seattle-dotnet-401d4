@@ -2,9 +2,9 @@
 
 namespace Class02Demo
 {
-	class Program
+	public class Program
 	{
-		static void Main(string[] args)
+		public static void Main(string[] args)
 		{
 			try
 			{
@@ -74,5 +74,25 @@ namespace Class02Demo
 
 
 		}
+
+		public static string FizzBuzz(int number)
+		{
+			if ((number % 3 == 0) && (number % 5 == 0))
+			{
+				return "FizzBuzz";
+			}
+			if (number % 3 == 0)
+			{
+				return "Fizz";
+			}
+			if (number % 5 == 0)
+			{
+				return "Buzz";
+			}
+
+			return number.ToString();
+		}
+
+
 	}
 }
