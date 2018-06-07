@@ -8,6 +8,10 @@
 
 ## Lecture Outline
 
+# Note: 
+- Building out a Console App in Core for projects
+- Door Codes have changed.
+
 ### System IO Library
  - What is it
  - Why do we use it
