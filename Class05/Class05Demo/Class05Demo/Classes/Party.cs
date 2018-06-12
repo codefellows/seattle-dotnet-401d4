@@ -22,5 +22,5 @@ namespace Class05Demo.Classes
 		{
 			return false;
 		}
-}
+	}
 }

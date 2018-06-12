@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Class05_LinkedList
 {
-	class LinkList
+	public class LinkList
 	{
 		/// <summary>
 		/// Always points to the first node in a LL.
@@ -30,6 +30,7 @@ namespace Class05_LinkedList
 
 		public void Add(Node node)
 		{
+			Current = Head;
 			node.Next = Head;
 			Head = node;
 			Current = Head;
@@ -58,7 +59,6 @@ namespace Class05_LinkedList
 		/// <returns>Node that contains the value</returns>
 		public Node Find(int value)
 		{
-			// Always reset the Current runner to Head. 
 			Current = Head;
 
 			while (Current.Next != null)
@@ -67,10 +67,7 @@ namespace Class05_LinkedList
 				{
 					return Current;
 				}
-
-				//Move the Current runner to the next node in the list.
 				Current = Current.Next;
-
 			}
 
 			return Current.Value == value ? Current : null;
@@ -78,7 +75,43 @@ namespace Class05_LinkedList
 
 		// Add Before O(n)
 
+		public void AddBefore(Node newNode, Node existingNode)
+		{
+			//Reset our Current to the beginning of the Linked List
+			Current = Head;
+			if (Head.Value == existingNode.Value)
+			{
+				Add(newNode);
+				return;
+			}
+
+			while (Current.Next != null)
+			{
+
+				if (Current.Next.Value == existingNode.Value)
+				{
+					newNode.Next = existingNode;
+					Current.Next = newNode;
+					return;
+				}
+				Current = Current.Next;
+			}
+
+
+		}
+
 		// Add After O(n)
+
+		public void AddLast(Node newNode)
+		{
+			Current = Head;
+			while (Current.Next != null)
+			{
+				Current = Current.Next;
+			}
+
+			Current.Next = newNode;
+		}
 
 		// Add Last O(n)
 
