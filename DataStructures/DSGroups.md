@@ -58,11 +58,10 @@
 
 -->
 
-<!--
 
 # Week 2
 
-## Data Structure Groups Class 6-9:
+## Data Structure Groups Class 6-8:
 
 | Student  1       | Student  2      | Student  3    |
 | ------------- |  ------------- |:-------------:|
@@ -88,7 +87,7 @@
 |Judah Hunger | {With a TA}
 
 
-<hr /> -->
+<hr /> 
 # Week 1
 
 ## Data Structure Groups Class 1-3:
