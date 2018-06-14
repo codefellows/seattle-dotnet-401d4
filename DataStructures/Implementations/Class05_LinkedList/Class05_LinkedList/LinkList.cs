@@ -51,6 +51,24 @@ namespace Class05_LinkedList
 			Console.Write($"{Current.Value} --> NULL");
 		}
 
+
+		public int CountNodes()
+		{
+			Current = Head;
+			int counter = 0;
+
+			while (Current.Next != null)
+			{
+				counter++;
+				Console.Write($"{Current.Value} --> ");
+				Current = Current.Next;
+			}
+			counter++;
+			Console.Write($"{Current.Value} --> NULL");
+
+			return counter;
+		}
+
 		/// <summary>
 		/// Finds a node with a specified Value. 
 		/// Big O of this is O(n)

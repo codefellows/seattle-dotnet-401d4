@@ -18,6 +18,8 @@ namespace XUnitTestProject1
 	        ll.Add(node);
 			ll.Add(node2);
 
+
+			
 			/*
 			 15 <- 8 <- 4
 			 */
@@ -27,6 +29,35 @@ namespace XUnitTestProject1
 	        Assert.Equal(ll.Head.Value, node2.Value);
 
         }
+
+
+	    [Fact]
+	    public void CountedNodesAreAdded()
+	    {
+		    // Arrange
+		    LinkList ll = new LinkList(new Node(4));
+		    Node node = new Node(8);
+		    Node node2 = new Node(15);
+
+		    //Act
+		    ll.Add(node);
+		    ll.Add(node2);
+
+		    int number = ll.CountNodes();
+
+
+
+		    /*
+		     15 <- 8 <- 4
+		     */
+
+		    //Assert
+
+		    Assert.Equal(3, number);
+
+	    }
+
+
 
 		[Theory]
 		[InlineData(8, 8)]
