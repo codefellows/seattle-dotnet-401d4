@@ -28,7 +28,7 @@
 
 
  -->
- <!--
+
 # Week 3
 
 ## Data Structure Groups Class 11-13:
@@ -56,7 +56,7 @@
 |Max Suman | {With a TA} |
 
 
--->
+
 
 
 # Week 2
