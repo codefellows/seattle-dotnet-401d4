@@ -1,0 +1,45 @@
+﻿@model Class11Demo.Models.Cat
+
+@{
+    //var name = "Amanda";
+}
+
+<!-- Link Stylesheet-->
+<Link rel="stylesheet" href="~/StyleSheet.css" type="text/css" />
+
+<!-- Create a form that the user the can interact with. -->
+
+@ViewData["CatGreeting"]
+
+<form method="post">
+    
+    <label for="Name"> Name </label>
+    <input maxLength="10" name="Name"/>
+    
+    <label for="Age"> Age </label>
+    <input maxLength="2" name="Age"/>
+    
+    <label for="IsFat"> Is the cat fat? </label>
+    <input name="IsFat"/>
+
+    <button type="submit">Send Data</button>
+
+</form>
+
+
+
+@*<h1>Hello, @name, Here are my Cats</h1>*@
+
+@*@foreach (var cat in Model)
+{
+    <h4>@cat.Name is @cat.Age years old</h4>
+    if (cat.IsFat)
+    {
+        <p> Your cat is fat</p>
+    }
+    else
+    {
+        <p> Your cat is not fat</p>
+    }
+
+}*@
