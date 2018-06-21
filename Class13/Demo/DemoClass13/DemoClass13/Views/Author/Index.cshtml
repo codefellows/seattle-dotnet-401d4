@@ -1,0 +1,8 @@
+﻿@model List<DemoClass13.Models.Author>
+
+@foreach (var author in Model)
+{
+    <h3>Name: @author.Name</h3>
+    <p>Number of books: @author.NumberOfBooks</p>
+    <p>Hometown: @author.HomeTown</p>
+}
