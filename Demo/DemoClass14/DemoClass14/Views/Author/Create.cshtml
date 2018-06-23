@@ -1,0 +1,21 @@
+﻿@model Author
+
+<h2> @ViewData["Message"]</h2>
+
+<form method="post" asp-action="Create">
+    <div>
+        <label asp-for="Name">Name </label>
+        <input asp-for="Name"/>
+    </div>
+    
+    <div>
+        <label asp-for="Genre">Genre </label>
+        <select asp-for="Genre" asp-items="Html.GetEnumSelectList<Genre>()"></select>
+    </div>
+    
+    <div>
+        <input type="submit" value="Create"/>
+    </div>
+
+
+</form>

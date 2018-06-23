@@ -1,0 +1,20 @@
+﻿@model Author
+
+<h2>Update @Model.Name</h2>
+<form method="post" asp-action="Update">
+    <div>
+        <label asp-for="Name">Name </label>
+        <input asp-for="Name" value="@Model.Name" />
+    </div>
+
+    <div>
+        <label asp-for="Genre">Genre </label>
+        <select asp-for="Genre" asp-items="Html.GetEnumSelectList<Genre>()"></select>
+    </div>
+
+    <div>
+        <input type="submit" value="Update" />
+    </div>
+
+
+</form>

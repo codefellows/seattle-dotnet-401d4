@@ -1,0 +1,20 @@
+﻿@using LendingLibraryExample.Models
+@model LendingLibraryExample.Models.AuthorDetailViewModel
+
+<!-- Need to display
+
+The author details and all the books-->
+
+<h1>Details</h1>
+
+<h3>@Model.Author.Name</h3>
+
+<h3>@Model.Author.Genre</h3>
+
+@foreach (var x in Model.Books)
+{
+    <p>Title: @x.Title</p>
+    <p>YEAR Published: @x.YearPublished</p>
+  
+
+}

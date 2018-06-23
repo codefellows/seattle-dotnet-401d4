@@ -1,0 +1,19 @@
+﻿@using LendingLibraryExample.Models
+@model LendingLibraryExample.Models.Author
+
+<form method="post" asp-controller="Author" form-action="Create">
+
+    <label asp-for="Name">Name</label>
+    <input asp-for="Name" />
+    <br />
+    <br />
+
+    <label asp-for="Genre">Genre: </label>
+    <select asp-for="Genre" asp-items="Html.GetEnumSelectList<Genre>()"></select>
+    <br />
+    <br />
+
+
+    <button type="submit">Create Author</button>
+
+</form>
