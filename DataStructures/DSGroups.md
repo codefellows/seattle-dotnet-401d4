@@ -1,5 +1,5 @@
 
-<!-- # Week 4
+ # Week 4
 
 ## Data Structure Groups Class 15-18:
 
@@ -27,7 +27,7 @@
 |Stephen Harper | {With a TA} |
 
 
- -->
+
 
 # Week 3
 
