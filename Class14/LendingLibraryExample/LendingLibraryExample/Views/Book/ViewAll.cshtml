@@ -1,0 +1,13 @@
+﻿@model List<LendingLibraryExample.Models.Book>
+
+
+<h2>Books </h2>
+
+@foreach (var x in Model)
+{
+    <h3>Title: @x.Title</h3>
+    <p> Year Published: @x.YearPublished</p>
+    <p>Author Name: @x.Author.Name</p>
+    <p><a asp-controller="Book" asp-action="Details" asp-route-id="@x.ID" >View Details</a></p>
+    <hr/>
+}
