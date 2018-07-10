@@ -1,4 +1,7 @@
 # Week 6
+
+## Data Structure Groups Class 27-28:
+
 | Student  1       | Student  2   |
 | ------------- |  ------------- |
 |Anthony Green | Andrew Baik |
@@ -9,6 +12,20 @@
 |Benjamin Taylor | Mario Nishio |
 |Jimmy Chang | Jermaine Walker |
 |Paul Ritzman | Max Suman |
+
+## Mock Interviews Class 29:
+
+| Student  1       | Student  2   |
+| ------------- |  ------------- |
+|Jesse Atay | Anthony Green |
+|Paul Ritzman | Jermaine Walker |
+|Earl Jay | Jimmy Chang |
+|Mario Nishio | Andrew Baik |
+|Benjamin Taylor | Jackie Ly |
+|Nate Aurich | Judah Hunger |
+|Stephen Harper | Collin Hintzke |
+|Eric Singleton | Max Suman |
+
 
  # Week 4
 
