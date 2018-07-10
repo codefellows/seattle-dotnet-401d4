@@ -1,3 +1,14 @@
+# Week 6
+| Student  1       | Student  2   |
+| ------------- |  ------------- |
+|Anthony Green | Andrew Baik |
+|Nate Aurich | Earl Jay |
+|Jesse Atay | Stephen Harper |
+|Eric Singleton | Judah Hunger |
+|Jackie Ly | Collin Hintzke |
+|Benjamin Taylor | Mario Nishio |
+|Jimmy Chang | Jermaine Walker |
+|Paul Ritzman | Max Suman |
 
  # Week 4
 
