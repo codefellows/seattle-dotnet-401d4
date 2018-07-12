@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "Home";
+}
+
+<h2>Home</h2>
+
+@if(TempData["LoggedOut"] != null)
+{
+    <p>@TempData["LoggedOut"]</p>
+
+}
+Welcome to my ifte!
