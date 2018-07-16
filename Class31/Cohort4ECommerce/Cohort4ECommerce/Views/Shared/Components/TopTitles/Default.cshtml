@@ -1,0 +1,13 @@
+﻿@model List<Cohort4ECommerce.Models.Post>
+
+@{
+    var count = 0;
+}
+<h2>Default</h2>
+
+@foreach (var item in Model)
+{
+    count++;
+
+    <a href="/Posts/Edit?Id=@item.ID">@count: @item.Title</a> <br />
+}

@@ -1,0 +1,41 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Cohort4ECommerce.Models
+@using System.Security.Claims;
+
+@inject UserManager<ApplicationUser> UserManager
+@inject SignInManager<ApplicationUser> SignInManager
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<h2>Home</h2>
+
+@if (TempData["LoggedOut"] != null)
+{
+    <p>@TempData["LoggedOut"]</p>
+
+}
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <h3>Hello @User.Identity.Name</h3>
+    <h4>My name is @User.Claims.First(c => c.Type == "FullName").Value</h4>
+
+}
+else
+{
+    <h3>Hello Anonymous User</h3>
+
+}
+
+
+
+@await Component.InvokeAsync("TopArticles", 3)
+
+
+<hr />
+<hr />
+<h3> Top Titles</h3>
+
+@await Component.InvokeAsync("TopTitles", 3)
