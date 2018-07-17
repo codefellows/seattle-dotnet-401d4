@@ -1,0 +1,102 @@
+﻿.TopBar {
+    background-color: transparent;
+    position: relative;
+}
+
+
+.HomeContainer {
+    background-color: black;
+}
+
+.outterBox {
+    border: black 1px solid;
+}
+
+.introPanel {
+    background-color: #F8EEE7;
+}
+
+.headTop {
+    max-height: 150px;
+}
+
+.HomePageImage {
+    background-color: #3F3250;
+}
+
+.innerBlock {
+    background-color: #efefef;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.featProds {
+    text-align: center;
+}
+
+#logoBlock {
+    background-color: #f5f5f5;
+    color: #3f3250 !important;
+    font-family: Cooper;
+    font-size: 20px;
+    text-align: center;
+    height: 100px;
+}
+
+.topBlock a {
+    text-decoration: none;
+    /*color: #f5f5f5;*/
+}
+
+.LogoText {
+    top: 25%;
+    position: relative;
+}
+
+.optionsBlock {
+    height: 50px;
+    background-color: #4adbac;
+}
+
+.clubHouseHeader {
+    background-color: #000000;
+    height: 50px;
+    position: relative;
+    text-align: center; 
+    color: #f4f4f4;
+    font-family: Cooper;
+    font-size: 30px;
+}
+
+#prodBlock {
+    background-color: #3f3250;
+    color: #f5f5f5 !important;
+    text-align: center;
+    height: 100px;
+    font-family: Cooper;
+    font-size: 20px;
+}
+
+
+#AboutBlock {
+    background-color: #f5f5f5;
+    color: #3f3250 !important;
+    text-align: center;
+    height: 100px;
+    font-family: Cooper;
+    font-size: 20px;
+}
+
+#AccountBlock {
+    background-color: #3f3250;
+    color: #f5f5f5;
+    height: 100px;
+    font-family: Cooper;
+    font-size: 20px;
+    text-align: center;
+    height: 100px;
+}
+
+.productblock {
+    border: 1px solid black;
+}

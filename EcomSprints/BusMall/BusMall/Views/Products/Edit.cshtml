@@ -1,0 +1,63 @@
+﻿@model BusMall.Models.Product
+
+@{
+    Layout = "_Admin";
+}
+
+<h3 style="text-align: center;"> Details for @Model.Name</h3>
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-12">
+            <form method="post">
+
+                <div class="form-group">
+                    <label asp-for="ID">ID</label>
+                    <input asp-for="ID" readonly="readonly" class="form-control" />
+                    <span asp-validation-for="ID" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Name">Name</label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+
+                <div class="form-group">
+                    <label asp-for="SKU">SKU</label>
+                    <input asp-for="SKU" class="form-control" />
+                    <span asp-validation-for="SKU" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Price">Price</label>
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+
+
+                <div class="form-group">
+                    <label asp-for="Image">Image URL</label>
+                    <input asp-for="Image" class="form-control" />
+                    <span asp-validation-for="Image" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Description">Description</label>
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Quantity">Quantity</label>
+                    <input asp-for="Quantity" class="form-control" />
+                    <span asp-validation-for="Quantity" class="text-danger"></span>
+                </div>
+                <a asp-action="Delete" asp-route-id="@Model.ID">Delete</a> |
+                <button type="submit" asp-route-id="@Model.ID" class="btn btn-default">Update</button>
+                
+            </form>
+        </div>
+    </div>
+</div>
+
