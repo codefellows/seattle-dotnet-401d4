@@ -1,3 +1,18 @@
+# Week 7
+
+## Mock Interviews Class 34:
+
+| Student  1       | Student  2   |
+| ------------- |  ------------- |
+|Jackie Ly | Max Suman |
+|Andrew Baik | Anthony Green |
+|Jimmy Chang | Eric Singleton |
+|Jesse Atay | Earl Jay |
+|Benjamin Taylor | Stephen Harper |
+|Jermaine Walker | Nate Aurich |
+|Mario Nishio | Paul Ritzman |
+|Collin Hintzke | Judah Hunger |
+
 # Week 6
 
 ## Data Structure Groups Class 27-28:
