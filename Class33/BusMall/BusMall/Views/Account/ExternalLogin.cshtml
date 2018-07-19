@@ -1,0 +1,13 @@
+﻿@model BusMall.Models.ExternalLoginViewModel
+@{
+    Layout = "_HomePage";
+    ViewData["Title"] = "ExternalLogin";
+}
+
+<h2>ExternalLogin</h2>
+
+<form asp-action="ExternalLoginConfirmation" method="post">
+    <label asp-for="Email"></label>
+    <input asp-for="Email" />
+    <button type="submit">Register</button>
+</form>
