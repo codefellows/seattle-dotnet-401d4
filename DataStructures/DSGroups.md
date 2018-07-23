@@ -1,3 +1,57 @@
+# Week 8
+
+## Mock Interviews Class 36:
+ Student  1       | Student  2   |
+| ------------- |  ------------- |
+|Benjamin Taylor | Paul Ritzman |
+|Nate Aurich | Jesse Atay |
+|Max Suman | Mario Nishio |
+|Eric Singleton | Earl Jay |
+|Jimmy Chang | Stephen Harper |
+|Jackie Ly | Collin Hintzke |
+|Andrew Baik | Anthony Green |
+|Judah Hunger | Jermaine Walker |
+
+## Mock Interviews Class 37:
+
+ Student  1       | Student  2   |
+| ------------- |  ------------- |
+|Jesse Atay | Jermaine Walker |
+|Mario Nishio | Andrew Baik |
+|Collin Hintzke | Judah Hunger |
+|Paul Ritzman | Jimmy Chang |
+|Stephen Harper | Earl Jay |
+|Max Suman | Benjamin Taylor |
+|Eric Singleton | Anthony Green |
+|Jackie Ly | Nate Aurich |
+
+## Mock Interviews Class 38:
+
+ Student  1       | Student  2   |
+| ------------- |  ------------- |
+|Earl Jay | Mario Nishio |
+|Nate Aurich | Judah Hunger |
+|Eric Singleton | Anthony Green |
+|Collin Hintzke | Jimmy Chang |
+|Andrew Baik | Jesse Atay |
+|Paul Ritzman | Benjamin Taylor |
+|Stephen Harper | Jermaine Walker |
+|Max Suman | Jackie Ly |
+
+## Mock Interviews Class 39:
+
+ Student  1       | Student  2   |
+| ------------- |  ------------- |
+|Jackie Ly | Stephen Harper |
+|Jesse Atay | Jimmy Chang |
+|Benjamin Taylor | Earl Jay |
+|Anthony Green | Nate Aurich |
+|Eric Singleton | Jermaine Walker |
+|Collin Hintzke | Judah Hunger |
+|Andrew Baik | Max Suman |
+|Paul Ritzman | Mario Nishio |
+
+
 # Week 7
 
 ## Mock Interviews Class 34:
