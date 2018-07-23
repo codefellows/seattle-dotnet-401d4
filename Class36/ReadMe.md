@@ -12,6 +12,7 @@
 of your whiteboard final.
 
 - Starbucks? (Jackie)
+- Resumes up to date
 
 
 ## Lecture
