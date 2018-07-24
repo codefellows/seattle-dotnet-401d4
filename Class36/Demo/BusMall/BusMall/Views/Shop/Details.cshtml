@@ -1,0 +1,24 @@
+﻿@model BusMall.Models.Product
+
+@{
+    Layout = "_HomePage";
+    ViewData["Title"] = "Details";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img class="img-responsive" src="@Model.Image" />
+        </div>
+        <div class="col-md-6">
+            <h3 style="text-align: center;">@Model.Name</h3>
+            <p>@Model.Description</p>
+            <strong>Price: @Model.Price</strong> <br />
+            <strong>SKU: @Model.SKU</strong> <br />
+            <strong>QTY: @Model.Quantity</strong>
+
+        </div>
+    </div>
+</div>
+

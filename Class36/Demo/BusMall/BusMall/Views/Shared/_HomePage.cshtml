@@ -1,0 +1,88 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using BusMall.Models
+@inject UserManager<ApplicationUser> UserManager
+@inject SignInManager<ApplicationUser> SignInManager
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Busmall Ecommerce Store</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/StyleSheet.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default rounded borders and increase the bottom margin */
+        .navbar {
+            margin-bottom: 50px;
+            border-radius: 0;
+        }
+
+        /* Remove the jumbotron's default bottom margin */
+        .jumbotron {
+            margin-bottom: 0;
+        }
+
+        /* Add a gray background color and some padding to the footer */
+        footer {
+            background-color: #f2f2f2;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="topBlock">
+            <div class="row">
+                <div class="col-lg-3 headTop" id="logoBlock">
+                    <a class="headerLinks" href="/"><span class="LogoText">BUS MALL</span></a>
+
+                </div>
+                <div class="col-lg-3 headTop" id="prodBlock">
+                    <a class="headerLinks" href="/Shop"><span class="LogoText">Products</span></a>
+                </div>
+                <div class="col-lg-3 headTop" id="AboutBlock">
+                    <span class="LogoText">About Us</span>
+                </div>
+                <div class="col-lg-3 headTop" id="AccountBlock">
+                    <a class="headerLinks" href="/Admin"><span class="LogoText">Admin</span></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class=" col-lg-12 innerBlock">
+                <h1>Bus Mall</h1>
+                <p>Buy Our Stuff</p>
+            </div>
+        </div>
+        <div class="row">
+            @if (SignInManager.IsSignedIn(User))
+            {
+                <span style="float: right"> Welcome  @User.Claims.First(c => c.Type == "FullName").Value! </span>
+
+            }
+            else
+            {
+                <span style="float: right"> <a href="/Account/Login">Login</a> </span>
+
+            }
+
+        </div>
+
+        @RenderBody()
+        <hr />
+
+    </div>
+    <footer>
+        <p>&copy; 2018 - Bus Mall</p>
+    </footer>
+
+</body>
+</html>
