@@ -1,0 +1,33 @@
+﻿@page
+@model Cohort4ECommerce.Pages.ProfileModel
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<h2>Profile</h2>
+
+
+Here is our profile page
+
+<form method="post">
+
+    <div>
+
+        <label asp-for="FirstName"></label> :
+        <input asp-for="FirstName" />
+    </div>
+
+    <div>
+
+        <label asp-for="LastName"></label> :
+        <input asp-for="LastName" />
+    </div>
+
+    <div>
+
+        <label asp-for="Email"></label> :
+        <input readonly="readonly" asp-for="Email" />
+    </div>
+    <button type="submit">Update</button>
+</form>
+

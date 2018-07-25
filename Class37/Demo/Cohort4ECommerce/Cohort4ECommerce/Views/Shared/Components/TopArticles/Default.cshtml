@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Cohort4ECommerce.Models.Post>
+
+
+<div style="background-color: red;">
+
+    <h4> Our Posts</h4>
+
+    @foreach (var item in Model)
+    {
+        <p> <strong> TITLE: </strong> @item.Title </p>
+        <p><strong> @item.Contents </strong></p>
+        <hr />
+    }
+
+</div>
