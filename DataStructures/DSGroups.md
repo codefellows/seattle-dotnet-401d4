@@ -1,7 +1,21 @@
+# Week 9
+## Mock Interviews Class 44:
+
+ Student  1       | Student  2   |
+| ------------- |  ------------- |
+|Anthony Green | Collin Hintzke |
+|Eric Singleton | Nate Aurich |
+|Jackie Ly | Stephen Harper |
+|Benjamin Taylor | Jimmy Chang |
+|Jermaine Walker | Jesse Atay |
+|Earl Jay | Paul Ritzman |
+|Judah Hunger | Mario Nishio |
+|Max Suman | Andrew Baik |
+
 # Week 8
 
 ## Mock Interviews Class 36:
- Student  1       | Student  2   |
+ Student  1    | Student  2   |
 | ------------- |  ------------- |
 |Benjamin Taylor | Paul Ritzman |
 |Nate Aurich | Jesse Atay |
